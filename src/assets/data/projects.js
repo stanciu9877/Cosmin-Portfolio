@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
 import ProjectImg from "../images/projectImg.png";
 import AmazonClone from "../images/Amazon-Clone.PNG";
-import GreenCtgImg from "../images/greenctg.jpg";
+import CovidMap19 from "../images/CovidMap19.PNG";
 import CoinTrackerImg from "../images/cointracker.jpg";
 import CavinImg from "../images/cavinimg.jpg";
 
@@ -15,26 +15,27 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: "Green CTG",
-    desc: "An app to help people to get an overview of how they can make the city beautiful.",
-    img: GreenCtgImg,
+    name: "Covid19Traker",
+    desc: "A simple website made using ReactJS and Material-Ui. It show the worldwide cases in real time on an interactive map made with Leaflet ",
+    img: CovidMap19,
+    host: "https://covidtracker19new.netlify.app/",
   },
   {
     id: uuidv4(),
-    name: "Coin Tracker",
-    desc: "Using this app you can track any e coin. Also you will get a good advise about investment form the professional",
+    name: "In progress...",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed efficitur ex. Pellentesque tempus est felis, non fermentum tortor facilisis eget. Morbi quis erat vitae magna dictum cursus nec nec purus",
     img: CoinTrackerImg,
   },
   {
     id: uuidv4(),
-    name: "Cavin's Portfolio",
-    desc: "A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.",
+    name: "In progress...",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed efficitur ex. Pellentesque tempus est felis, non fermentum tortor facilisis eget. Morbi quis erat vitae magna dictum cursus nec nec purus",
     img: CavinImg,
   },
   {
     id: uuidv4(),
-    name: "Tracking Soft",
-    desc: "A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.",
+    name: "In progress",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed efficitur ex. Pellentesque tempus est felis, non fermentum tortor facilisis eget. Morbi quis erat vitae magna dictum cursus nec nec purus",
     img: ProjectImg,
   },
 ];
