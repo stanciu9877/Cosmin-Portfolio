@@ -45,6 +45,16 @@ const ProjectsStyles = styled.div`
       width: 100%;
     }
   }
+  @media only screen and (max-width: 450px) {
+    .projects__searchBar,
+    .projects__searchBar form,
+    .projects__searchBar input {
+      width: 100%;
+    }
+    .container1 {
+      padding: 1rem;
+    }
+  }
 `;
 
 export default function Projects() {

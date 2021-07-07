@@ -2,8 +2,9 @@ import React from "react";
 import SectionTitle from "./SectionTitle";
 import ContactInfoItem from "./ContactInfoItem";
 import { MdEmail, MdLocalPhone } from "react-icons/md";
-import ContactForm from "./ContactForm";
+
 import styled from "styled-components";
+import ContactUs from "./ContactUs";
 
 const ContactSectionStyle = styled.div`
   padding: 10rem 0;
@@ -65,7 +66,7 @@ export default function ContactSection() {
             <ContactInfoItem text="Bucuresti" />
           </div>
           <div className="right">
-            <ContactForm />
+            <ContactUs />
           </div>
         </div>
       </div>

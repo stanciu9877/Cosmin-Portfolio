@@ -1,0 +1,23 @@
+label {
+  font-size: 1.8rem;
+}
+input,
+textarea {
+  width: 100%;
+  font-size: 2rem;
+  padding: 1.2rem;
+  color: var(--gray-1);
+  background-color: var(--deep-dark);
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+textarea {
+  min-height: 250px;
+  resize: vertical;
+}
+.submit__btn:hover {
+  background-color: black;
+  cursor: pointer;
+}

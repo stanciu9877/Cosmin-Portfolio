@@ -1,5 +1,6 @@
 import React from "react";
-import { MdDesktopMac, MdPhonelinkSetup, MdPhoto } from "react-icons/md";
+import { MdDesktopMac, MdPhoto } from "react-icons/md";
+import { SiReact } from "react-icons/si";
 import styled from "styled-components";
 import SectionTitle from "./SectionTitle";
 import ServicesSectionItem from "./ServicesSectionItem";
@@ -38,9 +39,9 @@ export default function ServicesSection() {
             desc="I try to improve my HTML/CSS and Javascrip doing real world projects in ReactJs"
           />
           <ServicesSectionItem
-            icon={<MdPhonelinkSetup />}
-            title="App Dev"
-            desc="I develop mobile applications. I create mobile app with eye catching ui."
+            icon={<SiReact />}
+            title="Web Dev"
+            desc="I continuously developed my programming skills using the react framework."
           />
           <ServicesSectionItem
             icon={<MdPhoto />}

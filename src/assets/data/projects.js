@@ -1,9 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
-import ProjectImg from "../images/projectImg.png";
 import AmazonClone from "../images/Amazon-Clone.PNG";
 import CovidMap19 from "../images/CovidMap19.PNG";
-import CoinTrackerImg from "../images/cointracker.jpg";
-import CavinImg from "../images/cavinimg.jpg";
+import workinprogress from "../images/workinprogress.PNG";
 
 const projects = [
   {
@@ -24,19 +22,19 @@ const projects = [
     id: uuidv4(),
     name: "In progress...",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed efficitur ex. Pellentesque tempus est felis, non fermentum tortor facilisis eget. Morbi quis erat vitae magna dictum cursus nec nec purus",
-    img: CoinTrackerImg,
+    img: workinprogress,
   },
   {
     id: uuidv4(),
     name: "In progress...",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed efficitur ex. Pellentesque tempus est felis, non fermentum tortor facilisis eget. Morbi quis erat vitae magna dictum cursus nec nec purus",
-    img: CavinImg,
+    img: workinprogress,
   },
   {
     id: uuidv4(),
     name: "In progress",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed efficitur ex. Pellentesque tempus est felis, non fermentum tortor facilisis eget. Morbi quis erat vitae magna dictum cursus nec nec purus",
-    img: ProjectImg,
+    img: workinprogress,
   },
 ];
 
