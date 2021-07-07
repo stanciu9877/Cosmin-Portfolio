@@ -22,8 +22,7 @@ const ItemStyles = styled.div`
 export default function ServicesSectionItem({
   icon = <MdDesktopMac />,
   title = "web design",
-  desc = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi\
-numquam ut vitae commodi rerum,",
+  desc = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi numquam ut vitae commodi rerum,",
 }) {
   return (
     <ItemStyles>

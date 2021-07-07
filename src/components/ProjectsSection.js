@@ -85,7 +85,7 @@ export default function ProjectsSection() {
                 },
               }}
             >
-              {projects.map((project, index) => {
+              {projects.forEach((project, index) => {
                 if (index >= 5) return;
                 return (
                   <SwiperSlide key={project.id}>
